@@ -8,6 +8,8 @@ Weights file available at
 
 https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o 
 
+Detection Results can be found in /saved_results
+
 ## Dataset
 ACFR Orchard Fruit Dataset, released by Australian Centre for Field Robotics, The University of Sydney
 
@@ -15,7 +17,7 @@ http://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
 
 The corrsponding data used in this project is storage in /data/apple
          
-## Development and Test Environment
+## Development and Testing Environment
 
 Ubuntu 16.04, Cuda 9.1
 
