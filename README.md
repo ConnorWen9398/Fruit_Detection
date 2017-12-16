@@ -30,11 +30,13 @@ GTX 1080 Ti, i9-7900X
 ./darknet detector train cfg/[data file] cfg[cfg file] [model file]
 
 Example:
+
 ./darknet detector train cfg/apple.data cfg/yolo-apple2.cfg darknet19_448.conv.23
 ### Detection Single Image
 ./darknet detect cfg/[cfg file] [weights file] data/[filename] -thresh [threshold]
 
 Example:
+
 ./darknet detect cfg/yolo.cfg yolo.weights data/test.png -thresh 0.05
 Results are saved in /predictions
 ### Detection Multiple Image
