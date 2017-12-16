@@ -2,13 +2,13 @@
 ## Introduction
 The objective is to identify individual apples in the images and estimate the total number of apples over the dataset by accumulating the counts. Detection newwork and source code are based on Yolo v2 model.
 
-This project is supported by NYU Robotic Design Team.
-
 Weights file available at
 
 https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o 
 
 Detection Results can be found in /saved_results
+
+This project is supported by NYU Robotic Design Team.
 
 ## Dataset
 ACFR Orchard Fruit Dataset, released by Australian Centre for Field Robotics, The University of Sydney
