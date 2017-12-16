@@ -27,7 +27,7 @@ GTX 1080 Ti, i9-7900X
 ### Data Format Converting
 /python/
 ### Training
-./darknet detector train cfg/[data file] cfg[cfg file] [model file]
+./darknet detector train cfg/[data file] cfg/[cfg file] [model file]
 
 Example:
 
