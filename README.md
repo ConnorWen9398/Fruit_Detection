@@ -38,7 +38,7 @@ Results are saved in /predictions
 ### Detection Multiple Image
 Change the path for the txt file containing image list for test in /examples/detector.c Line 662
 
-Then running
+Start by running
 
 ./darknet detect cfg/[cfg file] [weights file] -thresh [threshold]
 
@@ -47,3 +47,19 @@ Example:
 ./darknet detect cfg/yolo.cfg yolo.weights -thresh 0.05
 
 Results are saved in /predictions
+
+## References
+[1] ACFR Orchard Fruit Dataset, the Australian Centre for Field Robotics, The University of Sydney, Australia, 2016, http://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
+
+[2] S. Bargoti and J. Underwood, "Deep fruit detection in orchards," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 3626-3633.
+
+[3] Bargoti, S. and Underwood, J. P. (2017), Image Segmentation for Fruit Detection and Yield Estimation in Apple Orchards. J. Field Robotics, 34: 1039–1060. 
+
+[4] McCool, C.; Sa, I.; Dayoub, F.; Lehnert, C.; Perez, T.; Upcroft, B. Visual Detection of Occluded Crop: For automated harvesting. In Proceedings of the International Conference on Robotics and Automation, Stockholm, Sweden, 16–21 May 2016.
+
+[5] Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, “You Only Look Once: Unified, Real-Time Object Detection,” the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, 2016, pp. 779-788.
+
+For more information and instruction about Yolo v2:
+
+https://pjreddie.com/darknet/yolo/
+
