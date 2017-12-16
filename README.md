@@ -59,7 +59,7 @@ Results are saved in /predictions
 
 [5] Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, “You Only Look Once: Unified, Real-Time Object Detection,” the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, 2016, pp. 779-788.
 
-For more information and instruction about Yolo v2:
+### For more information and instruction about Yolo v2:
 
 https://pjreddie.com/darknet/yolo/
 
