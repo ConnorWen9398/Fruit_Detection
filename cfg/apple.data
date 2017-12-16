@@ -1,0 +1,6 @@
+classes= 1
+train  = /home/rdt/Workspace/newsets/train.txt
+valid  = /home/rdt/Workspace/newsets/val.txt
+names = data/apple.names
+backup = backup
+
