@@ -6,7 +6,7 @@ Detection Results can be found in /saved_results
 
 This project is supported by NYU Robotic Design Team.
 
-## Weight File
+## Weights File
 
 Weights file available at
 
