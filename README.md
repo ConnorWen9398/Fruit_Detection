@@ -1,10 +1,12 @@
 # Fruit Detection and Yield Estimation Based on Yolo v2
 ## Introduction
-The objective is to identify individual apples in the images and estimate the total number of apples over the dataset by accumulating the counts. Detection newwork and source code are based on Yolo v2 model.
+The objective is to identify individual apples in the images and estimate the total number of apples over the dataset by accumulating the counts. Detection newwork and source code are based on Yolo v2 model. **Detailed report can be found in /Report**
 
 Weights file available at
 
-https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o 
+https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o
+
+**Put the weights file in the root directory.**
 
 Detection Results can be found in /saved_results
 
