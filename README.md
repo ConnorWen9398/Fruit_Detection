@@ -15,8 +15,11 @@ https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o
 **Put the weights file in the root directory.**
 
 **yolo.weights:** Yolo v2 pre-trained model;
+
 **darknet19_448.conv.23:** Pre-trained model for trainning;
+
 **yolo-apple2_10000 to 80000:** Model saved in corresponding iternations;
+
 **yolo-apple2_final:** Model used for testing
 
 ## Dataset
