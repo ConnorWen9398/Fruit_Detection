@@ -25,7 +25,7 @@ GTX 1080 Ti, i9-7900X
 
 ## Instruction
 ### Data Format Converting
-/python/
+/python/csv2txt.ipynb
 ### Training
 ./darknet detector train cfg/[data file] cfg/[cfg file] [model file]
 
