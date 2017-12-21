@@ -14,13 +14,17 @@ https://drive.google.com/open?id=1Tpl_IscaV1Ybd6pc3vJQ38mDZVMszD_o
 
 **Put the weights file in the root directory.**
 
+Two series of weithts file is trainning is this project. yolo-apple2_*** model for batch_size=1 in trainning, yolo-apple3_*** model for batch_size=64 in trainning.
+
 **yolo.weights:** Yolo v2 pre-trained model;
 
-**darknet19_448.conv.23:** Pre-trained model for trainning;
+**darknet19_448.conv.23:** Pre-built model for trainning;
 
-**yolo-apple2_10000 to 80000:** Model saved in corresponding iternations;
+**yolo-apple*_10000 to 80000:** Model saved in corresponding iternations;
 
-**yolo-apple2_final:** Model used for testing
+**yolo-apple*_final:** Model saved in last iternations;
+
+In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used. 
 
 ## Dataset
 ACFR Orchard Fruit Dataset, released by Australian Centre for Field Robotics, The University of Sydney
