@@ -20,11 +20,13 @@ Two series of weithts file is trainning is this project. yolo-apple2_*** model f
 
 **darknet19_448.conv.23:** Pre-built model for trainning;
 
-**yolo-apple2_10000 to 80000:** Model saved in corresponding iternations;
+**yolo-apple2_10000 to 80000:** Model saved in corresponding iternations for yolo-apple2 series;
 
-**yolo-apple2_final:** Model saved in last iternations;
+**yolo-apple3_3000 to 3500:** Model saved in corresponding iternations for yolo-apple3 series;
 
-In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used. 
+**yolo-apple2_final:** Model saved in last iternations for yolo-apple2 series;
+
+**In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used. **
 
 ## Dataset
 ACFR Orchard Fruit Dataset, released by Australian Centre for Field Robotics, The University of Sydney
@@ -54,6 +56,7 @@ Example:
 Example:
 
 ```./darknet detector test cfg/coco.data cfg/yolo.cfg yolo.weights data/test.png -thresh 0.05```
+
 Results are saved in /predictions
 ### Detection Multiple Image
 Change the path for the txt file containing image list for test in /examples/detector.c Line 662
