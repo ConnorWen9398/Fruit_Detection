@@ -85,5 +85,6 @@ Results are saved in /predictions
 ### For more information and instruction about Yolo v2:
 
 https://pjreddie.com/darknet/yolo/
+
 https://github.com/pjreddie/darknet
 
