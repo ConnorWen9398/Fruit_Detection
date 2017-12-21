@@ -20,9 +20,9 @@ Two series of weithts file is trainning is this project. yolo-apple2_*** model f
 
 **darknet19_448.conv.23:** Pre-built model for trainning;
 
-**yolo-apple*_10000 to 80000:** Model saved in corresponding iternations;
+**yolo-apple2_10000 to 80000:** Model saved in corresponding iternations;
 
-**yolo-apple*_final:** Model saved in last iternations;
+**yolo-apple2_final:** Model saved in last iternations;
 
 In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used. 
 
@@ -43,28 +43,28 @@ GTX 1080 Ti, i9-7900X
 ### Data Format Converting
 /python/csv2txt.ipynb
 ### Training
-./darknet detector train cfg/[data file] cfg/[cfg file] [model file]
+```./darknet detector train cfg/[data file] cfg/[cfg file] [model file]```
 
 Example:
 
-./darknet detector train cfg/apple.data cfg/yolo-apple2.cfg darknet19_448.conv.23
+```./darknet detector train cfg/apple.data cfg/yolo-apple2.cfg darknet19_448.conv.23```
 ### Detection Single Image
-./darknet detector test cfg/[data file] cfg/[cfg file] [weights file] data/[filename] -thresh [threshold]
+```./darknet detector test cfg/[data file] cfg/[cfg file] [weights file] data/[filename] -thresh [threshold]```
 
 Example:
 
-./darknet detector test cfg/coco.data cfg/yolo.cfg yolo.weights data/test.png -thresh 0.05
+```./darknet detector test cfg/coco.data cfg/yolo.cfg yolo.weights data/test.png -thresh 0.05```
 Results are saved in /predictions
 ### Detection Multiple Image
 Change the path for the txt file containing image list for test in /examples/detector.c Line 662
 
 Start by running
 
-./darknet detector test cfg/[data file] cfg/[cfg file] [weights file] -thresh [threshold]
+```./darknet detector test cfg/[data file] cfg/[cfg file] [weights file] -thresh [threshold]```
 
 Example:
 
-./darknet detector test cfg/apple.data cfg/yolo-apple2.cfg yolo-apple2_final.weights -thresh 0.05
+```./darknet detector test cfg/apple.data cfg/yolo-apple2.cfg yolo-apple2_final.weights -thresh 0.05```
 
 Results are saved in /predictions
 
