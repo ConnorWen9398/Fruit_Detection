@@ -26,7 +26,7 @@ Two series of weithts file is trainning is this project. yolo-apple2_*** model f
 
 **yolo-apple2_final:** Model saved in last iternations for yolo-apple2 series;
 
-**In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used. **
+**In testing, yolo-apple2_70000, yolo-apple2_final, yolo-apple3_3300 are used.**
 
 ## Dataset
 ACFR Orchard Fruit Dataset, released by Australian Centre for Field Robotics, The University of Sydney
